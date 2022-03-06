@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Movie</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+            <div class="container">
+              <a class="navbar-brand text-center" href="#">Movies</a>
+            </div>
+          </nav> 
+    </header>
+    <div class="container mt-4">Images/
+    <h3>Currently Playing Movies</h3>
+
+<!-- Flickity HTML init -->
+<div class="carousel" data-flickity='{ "groupCells": true }' id="caro">
+    <a href="http://127.0.0.1:5500/movie.html?id=10658"><img class="carousel-cell" src="Images/p-1.jpg" alt=""></a>
+    <a href="http://127.0.0.1:5500/movie.html?id=8867"><img class="carousel-cell" src="Images/p-2.jpg" alt=""></a>
+    <a href="http://127.0.0.1:5500/movie.html?id=13995"><img class="carousel-cell" src="Images/p-3.jpg" alt=""></a>
+    <a href="http://127.0.0.1:5500/movie.html?id=22059"><img class="carousel-cell" src="Images/p-4.jpg" alt=""></a>
+    <a href="http://127.0.0.1:5500/movie.html?id=36647"><img class="carousel-cell" src="Images/p-5.jpg" alt=""></a>
+    <a href="http://127.0.0.1:5500/movie.html?id=36657"><img class="carousel-cell" src="Images/p-6.jpg" alt=""></a>
+    <a href="http://127.0.0.1:5500/movie.html?id=36586"><img class="carousel-cell" src="Images/p-7.jpg" alt=""></a>
+    <a href="http://127.0.0.1:5500/movie.html?id=557"><img class="carousel-cell" src="Images/p-8.jpg" alt=""></a>
+    <a href="http://127.0.0.1:5500/movie.html?id=9480"><img class="carousel-cell" src="Images/p-9.jpg" alt=""></a>
+    <a href="http://127.0.0.1:5500/movie.html?id=36658"><img class="carousel-cell" src="Images/p-10.jpg" alt=""></a>
+    <a href="http://127.0.0.1:5500/movie.html?id=1927"><img class="carousel-cell" src="Images/p-11.jpg" alt=""></a>
+    <a href="http://127.0.0.1:5500/movie.html?id=7220"><img class="carousel-cell" src="Images/p-12.jpg" alt=""></a>
+</div>
+</div>
+
+    
+    
+    <section class="packages" id="packages">
+        <div class="container">
+            <h3>Popular Movies</h3>
+        <div class="row" style="margin-top:75px;" id="movielist">
+            
+            
+        </div>
+    </div>
+    </section>
+
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script src="script.js"></script>
+</body>
+</html>
